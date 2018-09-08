@@ -1,0 +1,147 @@
+/* -----------------------------------------------------------------------------------------------------------------  SIDE */
+
+#left div.sidecontent, #right div.sidecontent, div.sidecontent
+{ /* izy css - untuk masing masing pembungkus content yang ada di container left dan right */
+padding:15px 10px 10px 10px;
+margin-bottom:15px;
+border-top:none;
+}
+
+/* side category */ 
+/* izy css - untuk kategori yang ada di container left dan right */
+#left ul.sidecat li, #right ul.sidecat li {
+list-style:url(../images/icon_cat.png) inside;
+padding:7px 0;
+border-right:none;
+border-left:none;
+border-bottom:none;
+}
+
+ul.sidecat li:first-child {
+padding-top:0;
+border:none;
+}
+
+ul.sidecat li:last-child {
+padding-bottom:0;
+}
+
+#left ul.sidecat li ul li.subcat, #right ul.sidecat li ul li.subcat { /* izy css - untuk sub kategori */
+list-style:none;
+list-style:url(../../../images/icon/arrow.gif);
+margin-left:35px;
+color:#1f6079;
+border:none;
+padding:0;
+}
+
+#left .side-account {
+padding-left:15px;
+list-style:disc;
+}
+
+#left .side-account li {
+list-style:disc;
+}
+
+#left .side-account li a {
+font-family:novecentob;
+}
+
+
+
+/* izy css - side news */
+ul.sidenews {
+border:1px solid #d7d7d7;
+border-top:none;
+border-top:12px solid #12557f;
+}
+
+ul.sidenews li {
+background:url(../images/bg_sidenews_item.jpg) top repeat-x;
+background-color:#eaeef0;
+border-top:1px solid #d7d7d7;
+}
+
+ul.sidenews li a {
+display:block;
+color:#12557f;
+font-size:14px;
+font-family:novecento;
+line-height:normal;
+padding:15px 10px;
+}
+
+ul.sidenews li a:hover {
+color:#062a41;
+text-shadow:1px 1px 0px #fff;
+}
+
+ul.sidenews li:first-child {
+border-top:none;
+}
+
+
+/* izy css - side member area */
+ul.memberarea li {
+margin-left:15px;
+}
+
+ul.memberarea li a {
+display:block;
+background:url(../images/bg_runningtext.jpg) top repeat-x;
+border:1px solid #dedede;
+padding:3px 10px;
+margin-bottom:5px;
+text-decoration:none;
+
+-moz-transition-duration:0.5s;
+-o-transition-duration:0.5s;
+-webkit-transition-duration:0.5s;
+transition-duration:0.5s;
+
+-moz-border-radius:5px;
+-o-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+}
+
+ul.memberarea li a:hover {
+background-position:bottom;
+}
+
+div.sidecontent ul, div.sidecontent li {
+margin:0; padding:0;
+list-style:none;
+}
+
+.sidebanner img, #left .sidebanner img, #right .sidebanner img {
+margin-bottom:-5px;
+}
+
+/* Side Member Area */
+ul.memberarea, ul.memberarea li {
+list-style:none;
+margin:0; padding:0;
+}
+
+/* side news */
+ul.sidenews {
+margin:0; padding:0;
+}
+
+
+/* side payment */
+ul.sidepayment, ul.sidepayment li {
+list-style:none;
+margin:0; padding:0;
+}
+
+ul.sidepayment li {
+}
+
+/* side special */
+ul.side_special {
+width:41%;
+margin:0 auto;
+}

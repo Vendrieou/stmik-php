@@ -1,0 +1,197 @@
+#centerbanner { /* izy css - untuk banner tengah */
+    margin-top:30px;
+    margin-bottom:30px;
+    }
+    
+    #center .post-home img {
+    margin-right:10px;
+    }
+    
+    #center .centercontent { /* izy css - untuk pengaturan di container center */
+    padding:15px 15px 10px 15px;
+    }
+    
+    #center .pagecontent {
+    padding:89px 172px;
+    text-align:justify;
+    }
+    
+    
+    #center .pagecontent h2 {
+    font-family:novecentob;
+    font-wight:normal;
+    font-size:24px;
+    color:#12557f;
+    }
+    
+    #center .pagecontent h3 {
+    font-size:18px;
+    font-family:novecentob;
+    font-weight:normal;
+    color:#12557f;
+    }
+    
+    /* CIRCLE INFO */
+    
+    #center .circle_info {
+    width:971px;
+    height:147px;
+    background:url(../images/bg_circle_info.png) no-repeat;
+    padding-top:25px;
+    }
+    
+    #center .circle_info_content a {
+    width:124px;
+    height:123px;
+    display:block;
+    margin:0 9px;
+    
+    -moz-transition-duration:0.2s;
+    -o-transition-duration:0.2s;
+    -webkit-transition-duration:0.2s;
+    transition-duration:0.2s;
+    }
+    
+    #center .tanggal {
+    border-top:1px double #cdcdcc;
+    border-bottom:1px dotted #cdcdcc;
+    padding:5px 10px;
+    margin:10px 0;
+    font-family:novecento;
+    font-size:11px;
+    }
+    
+    #center .circle_info_content a.mahasiswa {
+    background:url(../images/circle_mahasiswa.png) no-repeat top;
+    }
+    
+    #center .circle_info_content a.hubungi {
+    background:url(../images/circle_hubungi.png) no-repeat top;
+    }
+    
+    #center .circle_info_content a.kalender {
+    background:url(../images/circle_kalender.png) no-repeat top;
+    }
+    
+    #center .circle_info_content a.portal {
+    background:url(../images/circle_portal.png) no-repeat top;
+    }
+    
+    #center .circle_info_content a.lowongan {
+    background:url(../images/circle_lowongan.png) no-repeat top;
+    }
+    
+    #center .circle_info_content a.ikatan {
+    background:url(../images/circle_ikatan.png) no-repeat top;
+    }
+    
+    #center .circle_info_content a:hover {
+    background-position:bottom;
+    }
+    
+    
+    #center .homecontent {
+    border:1px solid #dbdbdb;
+    margin-top:15px;
+    }
+    
+    #center .kegiatan {
+    width:479px;
+    background:url(../images/bg_kegiatan.png);
+    padding:14px 0px 4px 20px;
+    }
+    
+    #center .hdg_home {
+    font-family:BebasNeue;
+    font-size:34px;
+    font-weight:bold;
+    }
+    
+    /* KEGIATAN */
+    #center .home_kegiatan, #center .home_kegiatan li, 
+    #center .berita_akademik, #center .berita_akademik li  
+    {
+    margin:0; padding:0;
+    list-style:none;
+    }
+    
+    #center .home_kegiatan li {
+    width:215px;
+    float:left;
+    margin-right:23px;
+    margin-top:10px;
+    margin-bottom:10px;
+    }
+    
+    #center .imgnews, #center .imgnews {
+    border:5px solid #bebcb7;
+    }
+    
+    #center .home_kegiatan li a {
+    display:block;
+    margin-top:10px;
+    text-align:center;
+    color:#044c74;
+    font-weight:bold;
+    font-size:14px;
+    text-transform:capitalize;
+    line-height:17px;
+    }
+    
+    /* BERITA AKADEMIK */
+    #center .berita_akademik {
+    }
+    
+    #center .titlenews1 {
+    display:block;
+    font-weight:bold;
+    color:#000;
+    font-size:18px;
+    margin-left:18px;
+    }
+    
+    #center .simplenews1 {
+    margin-left:18px;
+    color:#727272;
+    margin-top:5px;
+    }
+    
+    /* -----------------------------------------------------------------------------------------------------------------  NEWS */
+    ul.news li, ul.testimoni li, .news tr td  {
+    padding:20px 0;
+    border-top:1px dashed #ddd;
+    }
+    
+    ul.news li:first-child, ul.testimoni li:first-child, .news tr:first-child td {
+    padding-top:0;
+    border:none;
+    }
+    
+    .judulnews {
+    display:block;
+    font-family:novecento;
+    font-size:16px;
+    margin-left:15px;
+    color:#12557f;	
+    }
+    
+    
+    
+    /* FAQ */
+    .question{
+    color:#666666;
+    font-weight:800;
+    font-size:14px;
+    padding-bottom:10px;
+    }
+    
+    .answer {
+    color:#777;
+    margin-bottom:40px;
+    }
+    
+    .question_base{
+    margin-top:20px;
+    margin-bottom:80px;
+    
+    }

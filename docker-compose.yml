@@ -1,0 +1,22 @@
+version: '2'
+
+services:
+  webserver:
+    build: ./docker/webserver
+    image: runwaytest_web
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./www:/var/www/html
+    links:
+      - db
+
+  db:
+    image: mariadb:10.2.17
+    ports: 
+      - "33061:3306"
+    volumes:
+      - ./db:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=docker

@@ -1,0 +1,41 @@
+#footer { /* izy css - pembungkus footer utama */
+    margin-top:25px;
+    margin-bottom:40px;
+    }
+    
+    #footer {
+    }
+    
+    #footer, #footer a { /* izy css - semua link di footer */
+    color:#fff;
+    }
+    
+    table.footnav td { /* izy css */
+    padding:0px 7px 0px 0px;
+    }
+    
+    .copyright { /* izy css - utk copyright */
+    color:#fff;
+    font-size:10px;
+    line-height:17px;
+    margin-top:5px;
+    }
+    
+    .copyright a { /* izy css - link di copyright */
+    }
+    
+    .foot_info {
+    margin-top:20px;
+    color:#b8b8b8;
+    line-height:17px;
+    }
+    
+    .foot_info p {
+    margin:0; padding:0;
+    margin:15px 0;
+    }
+    
+    .foot_info span {
+    color:#fff;
+    font-weight:bold;
+    }

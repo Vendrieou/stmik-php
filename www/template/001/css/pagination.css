@@ -1,0 +1,105 @@
+/* PAGINATION STYLE 01 */
+
+div.pagination {
+	font-family: "Tahoma", Arial, sans-serif;
+	font-size: 11px;
+	line-height: 18px;
+	text-transform: uppercase;
+	margin-bottom:10px;
+}
+
+div.pagination a:hover { /* izy css - link pagination keadaan hover */
+	color: #303030;
+}
+
+div.pagination a:active { /* izy css - link pagination saat dan setelah di klik */
+	color: blue;
+}
+
+.pagination a.number, .pagination a.pageposition {
+	border: 1px solid #d0d0d0;
+	color:#444;
+	
+	-moz-border-radius:30px;
+	-o-border-radius:30px;
+	-webkit-border-radius:30px;
+	border-radius:30px;
+}
+
+.pagination a.pageposition:hover, .pagination a.number:hover { /* izy css - pembungkus link pagination saat hover */
+	border-color: #888;
+	text-decoration:none;
+}
+
+.pagination a.number.current { /* izy css - pagination yang sedang aktif */
+	color: #578286;
+	background-color: #dbe5ee;
+	border-color: #a1c0c3;
+}
+
+a.pageposition {
+width:67px;
+padding-left:10px;
+}
+
+ul.number li{
+float:left;
+padding:0px;
+margin:0px;
+list-style:none;
+list-style-type:none;
+}
+
+a.current {
+width:30px;
+padding-left:10px;
+}
+
+a.number {
+width:20px;
+padding-left:10px;
+}
+
+/* end PAGINATION STYLE 01 */
+
+/* ============================================================================================================================================================= */
+
+/* ------------------------------------------
+CSS PAGINATION PACK
+by PixusDesign (Mir Haziq)
+- http://codecanyon.net/user/PixusDesign
+
+http://codecanyon.net/item/css-pagination-pack/109791
+------------------------------------------ */
+
+/* ----------------------------------------------
+-- GLOBAL STYLES FOR ALL PAGINATION STYLES
+---------------------------------------------- */
+
+.pagination {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.pagination .dots {
+	bottom: -6px;
+	color: #606060;
+	position: relative;
+}
+
+.pagination a, .pagination .dots {
+	display: inline-block;
+	margin-right: 2px;
+	padding: 2px 0px;
+	text-align:center;
+}
+
+.pagination a.number.current:hover {
+}
+
+.pagination a.number.current:active {
+	/* INNER SHADOWS */
+	-moz-box-shadow: 0px 1px 1px rgba(255,255,255,0.3), inset 0px 1px 2px rgba(0,0,0,0.15);
+	-webkit-box-shadow: 0px 1px 1px rgba(255,255,255,0.3), inset 0px 1px 2px rgba(0,0,0,0.15);
+	box-shadow: 0px 1px 1px rgba(255,255,255,0.3), inset 0px 1px 2px rgba(0,0,0,0.15);
+}

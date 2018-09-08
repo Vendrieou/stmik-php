@@ -1,0 +1,68 @@
+/* izy css */
+/* running text */
+.runningtext { 
+    font-size:12px;
+    }
+    
+    .runningtext_bar { /* izy css - ganti styling running text */
+    background:url(../images/bg_runningtext.jpg) repeat-x;
+    padding:10px 10px;
+    color:#3664a5;
+    /*
+    -moz-border-radius:20px;
+    -o-border-radius:20px;
+    -webkit-border-radius:20px;
+    -khtml-border-radius:20px;
+    -ms-border-radius:20px;
+    border-radius:20px;
+    */
+    }
+    /* izy css - styling utk top banner */
+    
+    
+    .hotline {
+    width:958px;
+    height:61px;
+    background:url(../images/hotline.png) no-repeat;
+    font-family:BebasNeue;
+    font-size:55px;
+    color:#fff;
+    line-height:65px;
+    padding-right:10px;
+    text-align:right;
+    }
+    
+    
+    /* -----------------------------------------------------------------------------------------------------------------  HEADER */
+    .toptrans td { /* izy css */
+    border-left:1px solid #98babe;
+    }
+    
+    .toptrans td:first-child { /* izy css */
+    border:none;
+    }
+    
+    .img_topbanner {/* izy css */
+    width:960px;
+    height:239px;
+    }
+    
+    .toptrans #butlogin, #sidelogin, .sidetombol {
+    margin:0; padding:0;
+    width:55px;
+    height:23px;
+    line-height:23px;
+    color:#fff;
+    padding-bottom:5px;
+    margin:0 10px 0 0px;
+    float:left;
+    border:none;
+    background:none;
+    background:url(../images/but_login.png) no-repeat top;
+    cursor:pointer;
+    }
+    
+    .toptrans #butlogin:active, #sidelogin:active {
+    background-position:bottom;
+    }
+    

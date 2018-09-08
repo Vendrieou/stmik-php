@@ -1,0 +1,119 @@
+/* ===================================================== Table cart ===================================== */
+#cart table {
+	width:100%;
+	border:1px solid #bbb;
+	margin-bottom:10px;
+	background:#fff;
+	font-size:12px;
+	line-height:18px;
+}
+#cart col.colC {
+	/*width:8em;*/
+}
+#cart th, #cart td {
+	padding:.8em 1em;
+	text-align:left;
+}
+#cart thead th {
+	border-bottom:2px solid #888;
+	background:#ddd;
+	padding:.4em 1em .2em;
+}
+#cart thead th.table-head {
+	font-size:1em;
+	font-weight:normal;
+	text-transform:uppercase;
+	color:#fff;
+	background:#555;
+	border:1px solid #555;
+}
+#cart tbody th,
+#cart tbody td {
+}
+#cart tbody tr.odd th,
+#cart tbody tr.odd td {
+	background:#fff;
+}
+#cart tfoot th,
+#cart tfoot td {
+	border-top:1px solid #666;
+	background:#eee;
+}
+#cart tfoot tr.total th,
+#cart tfoot tr.total td {
+	border-top:6px double #666;
+}
+#cart tfoot tr.total th {
+	text-transform:uppercase;
+}
+
+#cart .syarat {
+border:1px solid #ccc;
+background:#f0f0f0;
+height:100px;
+overflow:auto;
+
+-moz-box-shadow:5px 3px 7px #ccc inset;
+-o-box-shadow:5px 3px 7px #ccc inset;
+-webkit-box-shadow:5px 3px 7px #ccc inset;
+-khtml-box-shadow:5px 3px 7px #ccc inset;
+box-shadow:5px 3px 7px #ccc inset;
+}
+
+#cart .syarat li {
+margin-bottom:5px;
+}
+
+/* ===================================================== Table cart ===================================== */
+
+
+/*************** Notifications ***************/
+
+.notification {
+                position: relative;
+                margin: 0 0 15px 0;
+                padding: 0;
+                border: 1px solid;
+                background-position: 10px 11px !important;
+                background-repeat: no-repeat !important;
+                font-size: 13px;
+                /*width: 99.8%;*/
+				
+                }
+
+.notification div {
+                display:block;
+                font-style:normal;
+                padding: 10px 10px 10px 36px;
+                line-height: 1.5em;
+                }
+
+.notification .close {
+                color:#990000;
+                font-size:9px;
+                position:absolute;
+                right:5px;
+                top:5px;
+                }
+
+.success {
+                background: #ffcece url('../images/cross_circle.png');
+                border-color: #df8f8f;
+                color: #665252;
+                }
+
+                
+
+/*************** Notifications ***************/
+
+
+.cartsimple {
+font-size:11px;
+color:#666;
+font-weight:normal;
+line-height:normal;
+}
+
+.hijau {
+color:#3f880e;
+}

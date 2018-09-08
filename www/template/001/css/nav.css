@@ -1,0 +1,102 @@
+/* 
+------------ ATTENTION !!!
+------------ SEMUA STYLE DI FILE INI BERPENGARUH TERHADAP TAMPILAN WEBSITE. JIKA ADA PERUBAHAN DI WEBSITE, CUKUP UBAH DI STYLE YANG SUDAH TERSEDIA DI FILE INI YANG DIBERI COMMENT :: "izy css" ::
+
+PERINGATAN:
+FILE CSS SELAIN external.css dan nav.css INI TIDAK BOLEH DIGANGGU GUGAT. KARENA DAPAT MENGGANGGU STABILITAS TAMPILAN WEBSITE.
+ */
+
+
+/*
+-----------------------------------------------
+Navigation
+----------------------------------------------- */
+
+.bgtopnav {
+    padding:0 0px;
+    height:43px;
+    margin:3px 15px 20px 15px;
+    }
+    
+    ul.nav,
+    ul.nav * { margin:0;padding:0;}
+    ul.nav {
+      position:relative;
+      height:1em; /* izy css - tinggi background topnav */
+      }
+    
+    /* navigation (horizontal subnavigation)
+    ----------------------------------------------- */
+    ul.nav li:hover ul {left:0;z-index:10}
+    
+    /* navigation (vertical subnavigation)
+    ----------------------------------------------- */
+    ul.main li {
+        position:relative;
+        top:0;
+        left:0;
+        cursor:pointer;
+        float:left;
+        text-align:center;
+        list-style-type:none;
+        font-weight:normal;
+    }
+    
+    ul.main li ul {
+        cursor:default;
+        position:absolute;
+        height:auto;
+        top:3.4em; /* izy css - jarak subnav dari topnav */
+        background-position:0 0 !important;
+        left:-9000px;
+        border-top:0;
+        background:url(../images/bgsubnav.png);
+        padding:10px 0;
+    }
+    ul.main li ul li {
+        padding:0;
+        border:none;
+        width:auto;
+        max-width:none;
+      float:left;
+    }
+    ul.main li a { /* izy css - link topnav keadaan normal */
+        font-weight:normal;
+        text-decoration:none;
+        display:block;
+        float:left;
+        height:43px;
+        font-size:11px;
+        line-height:43px;
+        border:0;
+        color:#fff;
+        padding:0 1.5em;
+        text-transform:uppercase;
+        border-left:1px solid #08466d;
+    }
+    
+    ul.main li:first-child a {
+    border:none;
+    }
+    
+    ul.main li ul li a {
+        position:relative !important; /* ie Mac */
+        cursor:pointer !important;
+        white-space:nowrap;
+        width:12em; /* izy css - lebar subnav */
+        line-height:2em; /* izy css - tinggi subnav */
+        height:2em;
+        text-align:left;
+        font-weight:normal;
+    }
+    
+    ul.main li:hover a { /* izy css - keadaan topnav hover */
+      color:#ffffff;
+      background:#ffffff;
+    }
+    ul.main li:hover ul li a {color:#fff; font-size:11px; background:none; text-shadow:none;} /* izy css - style keadaan subnav normal */
+    ul.main li:hover ul li a:hover {color:#fff; background:#00131e;} /* izy css - style keadaan subnav hover */
+    ul.main li:hover a:active {background:none;} /* izy css - keaadan topnav saat di klik */
+    ul.main li:hover ul li a:active {color:#fff; background:none;} /* izy css - keaadan subnav saat di klik */
+    
+    
